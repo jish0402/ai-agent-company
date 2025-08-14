@@ -1,0 +1,30 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+backend/outputs/videos/*.mp4
+backend/outputs/videos/*.json
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
