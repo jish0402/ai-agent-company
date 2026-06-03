@@ -29,6 +29,6 @@ jobs:
           args: >
             -Dsonar.organization=jish0402
             -Dsonar.projectKey=jish0402_ai-agent-company
-            -Dsonar.sources=.
+            -Dsonar.sources=backend
             -Dsonar.exclusions=**/__pycache__/**,**/*.pyc,**/node_modules/**,**/.git/**
             -Dsonar.python.version=3
